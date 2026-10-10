@@ -1,0 +1,24 @@
+                         🏦 CRYPTO BANK
+                               │
+          ┌────────────────────┼────────────────────┐
+          │                    │                    │
+          ▼                    ▼                    ▼
+      ICryptoBank           BankBase           CryptoBank
+      Interface             Ownership          Main Contract
+                               │                    │
+                               │          ┌─────────┼─────────┐
+                               │          │         │         │
+                               │          ▼         ▼         ▼
+                               │       Deposit   Withdraw  Balance
+                               │          │
+                               │          ▼
+                               │        2% Fee
+                               │       ┌────┴────┐
+                               │       ▼         ▼
+                               │     Bank       User
+                               │     Fees       98%
+                               │
+                               └──────► Owner
+                                        │
+                                        ▼
+                                  Withdraw Fees
